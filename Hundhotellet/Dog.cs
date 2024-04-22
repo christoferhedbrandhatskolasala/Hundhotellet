@@ -11,6 +11,7 @@ namespace Hundhotellet
         public string name;
         public string chipNumber;
 
+        // TODO test comment
         public Dog(string name, string chipNumber)
         {
             this.name = name;
