@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Hundhotellet
+﻿namespace Hundhotellet
 {
     internal class DogHotel
     {
@@ -28,7 +22,7 @@ namespace Hundhotellet
 
                 if (dog != null)
                 {
-                    Console.WriteLine("bur " + i + ": " + dog.name);
+                    Console.WriteLine("Bur " + i + ": " + dog);
                 }
             }
         }

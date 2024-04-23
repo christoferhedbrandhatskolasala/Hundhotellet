@@ -16,6 +16,5 @@
             dogHotel.SetDog(2, testDog1);
             dogHotel.SetDog(5, testDog2);
         }
-
     }
 }

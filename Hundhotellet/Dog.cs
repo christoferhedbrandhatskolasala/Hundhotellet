@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Hundhotellet
+﻿namespace Hundhotellet
 {
     internal class Dog
     {
@@ -17,6 +11,9 @@ namespace Hundhotellet
             this.chipNumber = chipNumber;
         }
 
-
+        public override string ToString()
+        {
+            return name;
+        }
     }
 }
