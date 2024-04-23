@@ -26,5 +26,22 @@
                 }
             }
         }
+
+        public void PrintFeedingSchedule()
+        {
+            for (int i = 0; i < dogArray.Length; i++)
+            {
+                Dog dog = dogArray[i];
+
+                if (dog != null)
+                {
+                    Console.WriteLine("Bur " + i + ": " + dog);
+                    foreach (Meal meal in dog.mealList)
+                    {
+                        Console.WriteLine(meal.ToString());
+                    }
+                }
+            }
+        }
     }
 }
