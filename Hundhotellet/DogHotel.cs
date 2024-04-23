@@ -22,7 +22,7 @@
 
                 if (dog != null)
                 {
-                    Console.WriteLine("Bur " + i + ": " + dog);
+                    Console.WriteLine("Bur " + i + ": " + dog + " Owner: " + dog.owner);
                 }
             }
         }
