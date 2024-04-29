@@ -43,5 +43,19 @@
                 }
             }
         }
+
+        public void PrintPickups()
+        {
+            for (int i = 0; i < dogArray.Length; i++)
+            {
+                Dog dog = dogArray[i];
+
+                if (dog != null)
+                {
+                    Console.WriteLine("Bur " + i + ": " + dog + " Tider: " + dog.visit);
+                }
+            }
+        }
+
     }
 }
